@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
+import HttpTester from "./components/HttpTester.vue";
 </script>
 
 <template>
@@ -14,12 +14,12 @@ import TheWelcome from "./components/TheWelcome.vue";
     />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Welcome" />
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <HttpTester/>
   </main>
 </template>
 
